@@ -1,8 +1,8 @@
-#Bitly url shorterer
+Bitly url shorterer
 
 Input some URL to get a Bitly short link and forget about long URLs. 
 
-#How to install
+How to install
 
 - Go to https://bitly.com, sign up and generate your token: settings -> api -> Generate token
 
@@ -22,6 +22,6 @@ $python python3 main.py "here is your long URL"
 
 And that's it. You have got the bitly link. For example: bit.ly/3ieEuGB
 
-#Project Goals
+Project Goals
 
 The code is written for educational purposes on online-course for web-developers dvmn.org.
