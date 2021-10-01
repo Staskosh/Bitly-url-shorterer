@@ -11,7 +11,7 @@ The script allows you to shorten links using the bit.ly service, as well as get 
 
 - Create a file .env and put inside 
 ```bash
-$python BITLY_TOKEN=YOUR_TOKEN
+BITLY_TOKEN=YOUR_TOKEN
 ```
 - Python3 should be already installed. Then use pip (or pip3, if there is a conflict with Python2) to install dependencies:
 
