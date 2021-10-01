@@ -45,11 +45,11 @@ def count_clicks(bitly_token, bitlink):
 
 def main():
     load_dotenv()
-    parser = argparse.ArgumentParser()
+    parser = argparse.ArgumentParser(description='Put a long link or bitlink')
     parser.add_argument("link")
     args = parser.parse_args()
     link = args.link
-    BITLY_TOKEN = os.environ['bitly_token']
+    bitly_token = os.environ['BITLY_TOKEN']
     try:
         parsed_link = parse_url(link)
         if is_bitlink(bitly_token, parsed_link):
