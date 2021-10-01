@@ -49,7 +49,7 @@ def main():
     parser.add_argument("link")
     args = parser.parse_args()
     link = args.link
-    bitly_token = os.environ['bitly_token']
+    BITLY_TOKEN = os.environ['bitly_token']
     try:
         parsed_link = parse_url(link)
         if is_bitlink(bitly_token, parsed_link):
