@@ -1,4 +1,4 @@
-# Bitly url shorterer
+# Bitly url shortener
 
 Input some URL to get a Bitly short link and forget about long URLs. 
 The script allows you to shorten links using the bit.ly service, as well as get the number of clicks on the shortened link.
