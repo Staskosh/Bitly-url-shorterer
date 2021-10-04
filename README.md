@@ -1,7 +1,7 @@
 # Bitly url shortener
 
 Input some URL to get a Bitly short link and forget about long URLs. 
-The script allows you to shorten links using the bit.ly service, as well as get the number of clicks on the shortened link.
+The script allows you to shorten links using the [bitly](https://bitly.com) service, as well as get the number of clicks on the shortened link.
 
 ## How to install
 
@@ -27,4 +27,4 @@ And that's it. You have got the bitly link. For example: [bit.ly/3ieEuGB](https:
 
 ## Project Goals
 
-The code is written for educational purposes on online-course for web-developers dvmn.org.
+The code is written for educational purposes on online-course for web-developers [Devman](https://dvmn.org).
