@@ -16,11 +16,11 @@ BITLY_TOKEN=YOUR_TOKEN
 - Python3 should be already installed. Then use pip (or pip3, if there is a conflict with Python2) to install dependencies:
 
 ```bash
-$python pip install -r requirements.txt
+$pip install -r requirements.txt
 ```
 
 ```bash
-$python python3 main.py "here is your long URL"
+$python3 main.py "here is your long URL"
 ```
 
 And that's it. You have got the bitly link. For example: [bit.ly/3ieEuGB](https://bit.ly/3ieEuGB)
