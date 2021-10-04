@@ -23,7 +23,7 @@ $python pip install -r requirements.txt
 $python python3 main.py "here is your long URL"
 ```
 
-And that's it. You have got the bitly link. For example: [Short link](bit.ly/3ieEuGB)
+And that's it. You have got the bitly link. For example: [bit.ly/3ieEuGB](https://bit.ly/3ieEuGB)
 
 ## Project Goals
 
