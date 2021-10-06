@@ -47,8 +47,8 @@ def count_clicks(bitly_token, bitlink):
 def main():
     load_dotenv()
     parser = argparse.ArgumentParser(
-        description='''The script allows you to shorten links using the bitly service,
-        as well as get the number of clicks on the shortened link.'''
+        description="""The script allows you to shorten links using the bitly service,
+        as well as get the number of clicks on the shortened link."""
     )
     parser.add_argument("link", help='Put a long link or bitlink')
     args = parser.parse_args()
